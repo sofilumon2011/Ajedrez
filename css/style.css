@@ -1,0 +1,138 @@
+nav {
+    display: flex;
+    gap: 20px; /* Esto separa los dos botones */
+    align-items: center;
+}
+
+header {
+    background-color:#701111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+nav a{
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(0, 0, 0) ;
+    padding: 10px 20px;
+    border-radius: 30px; 
+    text-decoration: none;
+}
+main {
+    max-width: 900px;
+    padding: 20px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.card {
+    background: rgb(231, 227, 227);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px;
+    align-items: center;
+}
+.title {
+    background-color: #b9b4b4; 
+    color: #353535;              
+    padding: 10px;                               
+    border: 2px solid #000;    
+    border-radius: 8px 8px 8px 8px; 
+    font-size: 1.2rem;   
+    width: 30%;  
+    text-align: center; 
+    
+}
+
+
+img  {
+    width: 100%;      
+    max-width: 250px;   
+    height: 300px;      
+    object-fit: cover;  
+    box-shadow: 0 3px 8px ;
+
+}
+
+
+
+
+input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    
+}
+
+
+
+button.boton {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(131, 16, 16);
+    color:white;
+}
+
+button.botonregistro {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(131, 16, 16);
+    color: white;
+}
+main.iniciar.sesion {
+    background-color: rgb(190, 186, 186);
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px;
+    width: 100%;
+  
+}
+
+header.iniciarsesion {
+    background-color: #c5b0b0; 
+    color: black;              
+    padding: 10px;                               
+    border: 2px solid #000;    
+    border-radius: 8px 8px 8px 8px; 
+    font-size: 1.2rem;   
+    width: 30%;  
+    text-align: center;
+}
+
+body {
+    background-color: #f2e6e6; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 3px solid #000000;
+    border-radius: 2ch;
+    box-sizing: border-box; 
+}
+
+
+
+main.iniciar.sesion {
+    width: 100%;
+    max-width: 400px;      
+    margin: 0 auto;
+
+}
+ 
+.registro {
+    padding: 17px;
+    border-radius: 20px;
+    background-color: rgb(228, 171, 171);
+    color:rgb(0, 0, 0);
+
+}
